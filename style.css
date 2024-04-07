@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 49px;
+    background-color: black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    min-height: 75vh;
+    background-color: beige;
+    display: flex;
+    color: black;
+    width: 70%;
+    margin: 32px auto;
+    border-radius: 12px;
+    padding: 34px;
+}
+.brand img{
+    width: 51px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.bottom{
+    position: sticky;
+    height: 105px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 12px 0;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
