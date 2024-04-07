@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 body {
-  background-color: black;
+  background-color: beige;
 }
 
 * {
@@ -26,11 +26,12 @@ nav ul li{
     min-height: 75vh;
     background-color: beige;
     display: flex;
-    color: black;
+    color: aliceblue;
     width: 70%;
     margin: 32px auto;
     border-radius: 12px;
     padding: 34px;
+    background-image: url("bg.jpg");
 }
 .brand img{
     width: 51px;
@@ -62,4 +63,31 @@ nav ul li{
 #myProgressBar{
     width: 80vw;
     text-align: center;
+}
+.songItem{
+    height: 60px;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 55px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+
+.timestamp{
+    margin: 0 23px;
+    align-items: center;
+    justify-content: center;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songcontainer{
+     margin-top: 34px;
 }
