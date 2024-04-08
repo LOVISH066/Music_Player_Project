@@ -53,6 +53,10 @@ nav ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+.songItem i{
+    cursor: pointer;    
 }
 .icons{
     margin: 12px 0;
@@ -79,7 +83,14 @@ nav ul li{
     border-radius: 34px;
 
 }
-
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
 .timestamp{
     margin: 0 23px;
     align-items: center;
